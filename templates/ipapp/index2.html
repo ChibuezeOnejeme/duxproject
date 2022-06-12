@@ -1,0 +1,33 @@
+{% extends  "ipapp/base.html"  %}
+{%  load static          %}
+
+{% block content %}
+ <h3>Welcome to Dux innovation Lab</h3>
+                  <h5>Your data is private</h5>
+                   
+                  <div class="search-icon"  >
+                      <a href="#search" class="main-stroked-button"><i class="fa fa-search" ></i> click to search</a>
+                  
+                  </div>
+                  <br>
+                    <div>
+                       <a href="{% url  'ipapp:chart'  %}" class="main-filled-button">search history chart</a> 
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+       
+         
+        </div>
+    </div>
+
+
+    
+ {% include 'ipapp/includes/messages.html' %}
+
+
+
+
+
+{% endblock content %}
