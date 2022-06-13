@@ -16,7 +16,6 @@ from django.contrib import messages
 from django.db.models import Count
 import folium
 from folium import plugins
-import geocoder
 import json
 
 
