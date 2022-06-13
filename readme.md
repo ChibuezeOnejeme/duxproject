@@ -34,6 +34,7 @@ Create virtual environment
 
 ```bash
 pip install virtualenvwrapper
+
 ```
  $ mkvirtualenv <venv_name>
 
@@ -47,12 +48,12 @@ $ git clone https://ezemiller@bitbucket.org/ezemiller/duxproject.git
 ```
 
 ```bash
- $ pip install -r requirements.txt 
+ $  cd duxproject
 ```
 **Go to the project directory**
 
 ```bash
- $  cd duxproject
+ $ pip install -r requirements.txt 
 ```
  **Go to where the level of django project and manage.py are at thesame leve and run;**
 ```bash
@@ -86,3 +87,14 @@ flowchart LR
 ```
  
 [click: django app setup](https://docs.djangoproject.com/en/4.0/intro/tutorial01/)
+
+**website**
+
+![image info](./duxpics/hompage.png)
+![image info](./duxpics/register.png)
+![image info](./duxpics/login.png)
+![image info](./duxpics/search1.png)
+![image info](./duxpics/search2.png)
+![image info](./duxpics/graph.png)
+![image info](./duxpics/heatmap.png)
+![image info](./duxpics/table.png)
